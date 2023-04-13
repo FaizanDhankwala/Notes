@@ -1,3 +1,6 @@
+Getters And Setters
+---------------------------------------------------
+
 - These notes will be about getters and setters as well as how to use them
 
 - for this program we will be coding a file called "cat"
