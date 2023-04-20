@@ -166,27 +166,22 @@ public class dutchpractice {
 
     }
 
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 2, 0, 0, 0, 1, 2};
+
+        dutchpractice(nums);
+        printarray(nums);
+    }
 
 
+    public static void printarray(int[] array2) {
 
+        for (int nums : array2) {
+            System.out.print(nums + " ");
+        }
+    }
+}
 
-
-                            public static void main(String[] args) {
-
-                                int[] nums = {1, 2, 2, 0, 0, 0, 1, 2};
-
-                                dutchpractice(nums);
-                                printarray(nums);
-                            }
-
-
-                    public static void printarray(int [] array2){
-
-                        for(int nums: array2){
-                            System.out.print(nums + " " );
-                        }
-                    }
-                }
 
 ```
 
