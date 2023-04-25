@@ -126,4 +126,127 @@ And AB can cross over which takes 2 min
   
   
   
+  
+  
+  ArrayList
+  ----------------------------------
+  -arrayLists are arrays that allow you to continue to add spaces to an array
+  
+  you can add to an arraylist
+  
+  Ex:
+  
+  Arraylist fruitList= new ArrayList();
+  fruitList.add("mango");
+   fruitList.add("apple");
+    fruitList.add("bananna");
+     fruitList.add("yes");
+  
+  
+  Big O notation
+  ------------------------------------
+  
+  Very epic!
+  
+  "How code slows as data grows"
+  
+  
+  examples
+  O(1)
+  O(n)
+  O(log n)
+  O(n^2) 
+  
+  
+  n= amount of data variable like x
+  
+  
+Here is an exmaple
+
+```java 
+int addUp(int n){
+
+int sum=0;
+for(int i=0; i<=n; i++){
+
+sum+=i;
+}
+return sum;
+}
+```
+
+what if n=100000?
+this function has an O(n) complexity
+then n= would go for at least 10000 times because of the for loop
+
+lets rewrite the code for clarity
+
+ ```java
+ int addUp(int n){
+ int sum= n*(n+1)/2;
+ return sum;
+ }
+ ```
+ 
+ 
+ 
+ This will take only 3 steps
+ even if n=100000
+ 
+ this is an O(1) complexity cosntant time
+ 
+ 
+ https://cdn-media-1.freecodecamp.org/images/uKzmoTrYJbLljumcgitSieybiHBUBEasqyvd
+ 
+ Here is an example
+ 
+ binary search is O(log n) - llogathmic time
+ bubblesort is quadratic time
+ 
+O(1)= constant time 
+O(log n) - llogathmic time
+O(n) is linear time
+O(n log n)= quaslilier time
+O(n^2)= quadratic time
+O(n!)= factorial time
+
+
+Returning the max number's index in an interger array
+---------------------------------------
+
+The input is an array of integers
+so if you were given
+
+```java
+int [] data1= {12,12,1,7,18,10,3};
+
+we need to return 4 because index 4 is 18
+```
+
+
+
+Object orientated Programming
+-------------------------------------------------
+Why Object oriented?
+
+object orientated programming helps you read information
+
+
+**Encapsulation**
+Encapuslation is bascially using methods to set in classes
+
+so 
+```java
+public class Student{
+
+String name;
+int age;
+```
+both of these will have 2 methods both set and get.
+
+Bro basically just set and get what not
+
+
+  
+  
 
