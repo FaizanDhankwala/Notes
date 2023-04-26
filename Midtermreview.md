@@ -249,4 +249,106 @@ Bro basically just set and get what not
 
   
   
+Overide vs Overload
+----------------------------------------------- 
+
+
+Here is a class Animal
+
+```java
+class Animal{
+public void add(){
+
+}
+
+//another method with the same name but takes parameters
+
+public void add (int a, int b){
+
+}
+```
+- One of the methods have parameters unlike the other
+- lets add another
+```java
+class Animal{
+public void add(){
+
+}
+
+//another method with the same name but takes parameters
+
+public void add (int a, int b){
+
+}
+
+public int add( int a, int b, int c){
+
+}
+```
+
+-This is method overloading- as the names are the same, but have different parameters
+
+
+the return type does not count in method overloading
+
+
+
+Overiding
+==========
+
+
+
+```java
+class Animal{
+public void add(){
+
+}
+
+class Dog extends Animal{
+
+}
+```
+
+the Dog class is the child class of animal- and it is the SAME animal class- it is a property of a dog class.
+
+so whatever code is written in the add method, it becomes a property of the dog class. So if you want the same code from animal to dog, you need to add the same method so
+
+
+```java
+class Animal{
+public void add(){
+
+}
+
+class Dog extends Animal{
+public void add(){
+
+}
+
+}
+
+both signatures of both add methods are COMPLETLY THE SAME.
+
+
+Differences between overloading and overiding
+
+Overloading
+
+-Occurs in one class
+-method has the same name, but different parameters
+- increases readaibility- can use different names would still work 
+-return type can be the same or different
+
+
+
+
+Overrding 
+-occurs in two classes: super clas and sub class ie: inheritance is involved
+
+-Name and parameters both have to be the same.
+
+- we use overiding to ensure that the method in the child class is already present in the parent class
+- return typ ewill always be the same
+
+
 
