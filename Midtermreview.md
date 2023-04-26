@@ -352,3 +352,47 @@ Overrding
 
 
 
+
+Using protected
+---------------------------------------------
+
+WE can use "protected" in a base clas to make sre we can ascess the names in other classes.
+
+- for a base function w never wnat to use, we have to make it and the whole class abstract. making an abstract class- make sit so we ust add other classes from the derived base class.
+
+
+That means we cnannot initialize a new anima l!
+
+
+- we can make an interface. Interfacees are a different version of inheritance. In the interface class, we can create an action method- an interface can have functions in it. Now that interface will call each play function in their respected classes. because dog is comnnected to animal and animal is connected to Action- their plays will make sense.
+
+Now we can rewrite the array with Action instead!
+
+
+
+
+-COol
+
+Complexity (cost)
+
+cost means your given code takes a certain amount of time, memory, space, power, cpu, network, and yes.
+-------------------------------------------------
+
+Different types of passses
+
+one pass- each element used in constant times.
+should not be a function of the size of the array
+evey element should be used in the constant times.
+
+Any sorts are not one pass!
+
+Is binary search one pass?
+
+How many times each element is looked at?
+
+we start from the middle
+
+So it can be UP to one pass so yes, it is!
+
+
+
