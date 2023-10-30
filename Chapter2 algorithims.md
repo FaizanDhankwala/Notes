@@ -112,6 +112,45 @@ Example 4
 
   so the time complexity is O(n^2) as we isolate the fastest growing coeffient!
 
+
+  Here are the time complexities of othe roperations!
+  -------------------------------------
+
+  ```
+Operation Big-O Efficiency
+indexx[] 𝑂(1)
+index assignment 𝑂(1)
+append 𝑂(1)
+pop() 𝑂(1)
+pop(i) 𝑂(𝑛)
+insert(i,item) 𝑂(𝑛)
+del operator 𝑂(𝑛)
+iteration 𝑂(𝑛)
+contains (in) 𝑂(𝑛)
+get slice [x:y] 𝑂(𝑘)
+del slice 𝑂(𝑛)
+set slice 𝑂(𝑛 + 𝑘)
+reverse 𝑂(𝑛)
+concatenate 𝑂(𝑘)
+sort 𝑂(𝑛 log 𝑛)
+multiply 𝑂(𝑛𝑘)
+
+```
+
+And here is the complexities of dictionaries
+----------------------------
+
+```
+Operation Big-O Efficiency
+copy 𝑂(𝑛)
+get item 𝑂(1)
+set item 𝑂(1)
+delete item 𝑂(1)
+contains (in) 𝑂(1)
+iteration 𝑂(𝑛)
+```
+
+
   
 
   
